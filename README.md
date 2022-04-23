@@ -24,7 +24,7 @@ refers to transforming the word labels into numerical form so that the algorithm
 # A One hot encoding
 is a representation of categorical variable as binary vectors.It allows the representation of categorical data to be more expresive. This first requires that the categorical values be mapped to integer values, that is label encoding. Then, each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
 
-#The Dummy variable trap
+# The Dummy variable trap
 is a scenario in which the independent variable are multicollinear, a scenario in which two or more variables are highly correlated in simple term one variable can be predicted from the others.
 
 
