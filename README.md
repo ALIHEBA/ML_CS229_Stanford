@@ -8,20 +8,20 @@ is a supervised learining algorithm used when target / dependent variable contin
 A cost function measures how much error in the model is in terms of ability to estimate the relationship between  x  and  y . We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference of observed dependent variable in the given the dataset and those predicted by the hypothesis function.
 ![image](https://user-images.githubusercontent.com/43907156/164891030-09b94e5d-2d33-433d-bacf-85c006255afe.png)
 
-#Heatmap
+# Heatmap
 According to the Oxford dictionary, a heatmap (or heat map) is “a representation of data in the form of a map or diagram in which data values are represented as colors”. One of the most effective ways to express a heatmap that can be used on mathematical models is through the use of matrices where each cell represents a square portion of space in a given measuring distance system and the colors represent the intensity of the studied event that happened on each cell mapped.
 
-#Encoding
+# Encoding
 Machine learning algorithms cannot work with categorical data directly, categorical data must be converted to number.
 
 Label Encoding
 One hot encoding
 Dummy variable trap
 
-#Label encoding
+# Label encoding
 refers to transforming the word labels into numerical form so that the algorithms can understand how to operate on them.
 
-#A One hot encoding
+# A One hot encoding
 is a representation of categorical variable as binary vectors.It allows the representation of categorical data to be more expresive. This first requires that the categorical values be mapped to integer values, that is label encoding. Then, each integer value is represented as a binary vector that is all zero values except the index of the integer, which is marked with a 1.
 
 #The Dummy variable trap
