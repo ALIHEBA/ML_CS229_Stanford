@@ -8,3 +8,8 @@ is a supervised learining algorithm used when target / dependent variable contin
 A cost function measures how much error in the model is in terms of ability to estimate the relationship between  x  and  y . We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference of observed dependent variable in the given the dataset and those predicted by the hypothesis function.
 ![image](https://user-images.githubusercontent.com/43907156/164891030-09b94e5d-2d33-433d-bacf-85c006255afe.png)
 
+#Heatmap
+According to the Oxford dictionary, a heatmap (or heat map) is “a representation of data in the form of a map or diagram in which data values are represented as colors”. One of the most effective ways to express a heatmap that can be used on mathematical models is through the use of matrices where each cell represents a square portion of space in a given measuring distance system and the colors represent the intensity of the studied event that happened on each cell mapped.
+
+
+
