@@ -27,5 +27,13 @@ is a representation of categorical variable as binary vectors.It allows the repr
 # The Dummy variable trap
 is a scenario in which the independent variable are multicollinear, a scenario in which two or more variables are highly correlated in simple term one variable can be predicted from the others.
 
+# A Box Cox transformation
+is a way to transform non-normal dependent variables into a normal shape. Normality is an important assumption for many statistical techniques; if your data isn’t normal, applying a Box-Cox means that you are able to run a broader number of tests. All that we need to perform this transformation is to find lambda value and apply the rule shown below to your variable.
+
+![image](https://user-images.githubusercontent.com/43907156/164893232-b75f019a-011b-492f-823b-34dd940a65d4.png)
+
+
+![image](https://user-images.githubusercontent.com/43907156/164893448-49813e9c-682b-4542-8524-68fab6c579e7.png)
+
 
 
