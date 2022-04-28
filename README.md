@@ -35,5 +35,13 @@ is a way to transform non-normal dependent variables into a normal shape. Normal
 
 ![image](https://user-images.githubusercontent.com/43907156/164893448-49813e9c-682b-4542-8524-68fab6c579e7.png)
 
+# Neural Network
+In addition to the training data, we need two more things:
+
+    A "loss function" that measures how good the network's predictions are.
+    An "optimizer" that can tell the network how to change its weights.
+
+
+
 
 
