@@ -40,6 +40,12 @@ In addition to the training data, we need two more things:
 
     A "loss function" that measures how good the network's predictions are.
     An "optimizer" that can tell the network how to change its weights.
+    
+The iterative algorithms that train a network in steps. One step of training goes like this:
+
+    Sample some training data and run it through the network to make predictions.
+    Measure the loss between the predictions and the true values.
+    Finally, adjust the weights in a direction that makes the loss smaller.
 
 
 
