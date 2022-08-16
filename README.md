@@ -77,6 +77,24 @@ Sigmoid kernel has its origin in neural networks. We can use it as the proxy for
 
 sigmoid kernel : k (x, y) = tanh(αxTy + c)
 
+
+# Precision
+
+Precision can be defined as the percentage of correctly predicted positive outcomes out of all the predicted positive outcomes. It can be given as the ratio of true positives (TP) to the sum of true and false positives (TP + FP).
+
+So, Precision identifies the proportion of correctly predicted positive outcome. It is more concerned with the positive class than the negative class.
+
+Mathematically, precision can be defined as the ratio of TP to (TP + FP).
+
+
+# Recall
+
+Recall can be defined as the percentage of correctly predicted positive outcomes out of all the actual positive outcomes. It can be given as the ratio of true positives (TP) to the sum of true positives and false negatives (TP + FN). Recall is also called Sensitivity.
+
+Recall identifies the proportion of correctly predicted actual positives.
+
+Mathematically, recall can be defined as the ratio of TP to (TP + FN).
+
 # Evaluate MOdel Performance 
 1. K-fold cross validation (Balanced Data)
 2. Stratifaid (Unbalanced Data)
